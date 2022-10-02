@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient( rgb(24, 119, 242), rgb(255, 37, 204));
+    background: rgb(255, 177, 8);
 }
 
 .container1 {
@@ -12,7 +12,6 @@ body {
     padding-bottom: 50px;
     padding-right: ;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
 }
 
 button {
@@ -32,7 +31,8 @@ button {
 button:hover {
     background-color: rgb(59, 176, 255);
     width: 200px;
-    transition: 1s;
+    transition: 0.5s;
+    transform: skewX(-10deg);
 }
 
 p {
