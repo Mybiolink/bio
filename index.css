@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.my-element {
+    --animate-repeat: 2;
+}
+
 body {
     background: rgb(255, 177, 8);
 }
@@ -17,8 +21,9 @@ body {
 button {
     display: block;
     height: 35px;
+    --animate-duration: 2.5s;
     width: 260px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 15px;
     border: 0px solid;
     font-family: 'Montserrat', sans-serif;
@@ -30,9 +35,7 @@ button {
 
 button:hover {
     background-color: rgb(59, 176, 255);
-    width: 200px;
-    transition: 0.5s;
-    transform: skewX(-10deg);
+    --animate-animated: animate__animate animate__backInRight;
 }
 
 p {
