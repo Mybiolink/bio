@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(255, 232, 183);
+    background-color: rgb(24, 119, 242);
 }
 
 .container1 {
@@ -12,17 +12,16 @@ body {
     padding-bottom: 50px;
     padding-right: ;
     border-radius: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 button {
     display: block;
     height: 35px;
-    --animate-duration: 2.5s;
-    width: 260px;
-    margin: 20px;
+    width: 350px;
+    margin: 10px;
     border-radius: 15px;
-    border: 0px solid;
-    font-family: 'Montserrat', sans-serif;
+    border: 1px solid;
 }
 
 .container1 a {
@@ -31,10 +30,4 @@ button {
 
 button:hover {
     background-color: rgb(59, 176, 255);
-    --animate-animated: animate__animate animate__backInRight;
-}
-
-p {
-    padding-top: 30px;
-    font-size: 8px;
 }
