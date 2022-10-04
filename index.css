@@ -7,21 +7,15 @@ body {
     background-color: rgb(24, 119, 242);
 }
 
-.container1 {
-    margin: 40px;
-    padding-bottom: 50px;
-    padding-right: ;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-}
+.container1 {}
 
 button {
     display: block;
     height: 35px;
-    width: 350px;
+    width: 260px;
     margin: 10px;
     border-radius: 15px;
-    border: 1px solid;
+    border: 0px solid;
 }
 
 .container1 a {
