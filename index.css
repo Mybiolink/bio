@@ -7,15 +7,29 @@ body {
     background-color: rgb(24, 119, 242);
 }
 
-.container1 {}
+h1 {
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1 {
+    margin: 5px;
+    padding-bottom: 50px;
+    padding-right: ;
+    border-radius: 20px;
+}
 
 button {
     display: block;
     height: 35px;
     width: 260px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 15px;
     border: 0px solid;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 2px 5px 2px gray;
 }
 
 .container1 a {
@@ -24,4 +38,10 @@ button {
 
 button:hover {
     background-color: rgb(59, 176, 255);
+    transition: 0.5s;
+}
+
+p {
+    padding-top: 30px;
+    font-size: 8px;
 }
