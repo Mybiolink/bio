@@ -3,18 +3,12 @@
     margin: 0px;
 }
 
-.my-element {
-    --animate-repeat: 2;
-}
-
 body {
     background: rgb(255, 177, 8);
 }
 
 .container1 {
     margin: 40px;
-    padding-bottom: 50px;
-    padding-right: ;
     border-radius: 20px;
 }
 
@@ -23,7 +17,7 @@ button {
     height: 35px;
     --animate-duration: 2.5s;
     width: 260px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 15px;
     border: 0px solid;
     font-family: 'Montserrat', sans-serif;
